@@ -1,0 +1,33 @@
+h1 {color: brown;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {color: green;
+}
+
+h3 {color: purple;
+}
+
+p {color: black;
+}
+body {
+    margin: 0;
+}
+#nav-list {
+    color: darkblue;
+    font-style: italic;
+    background-color: antiquewhite;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-width: 1px;
+    border-style: groove;
+    border-color:black;
+}
+
+
+.title {
+font-family: 'Times New Roman', Times, serif;
+}
