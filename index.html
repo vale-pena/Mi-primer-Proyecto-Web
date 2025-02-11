@@ -3,31 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CuentaLibros</title>
+    <title class="header">CuentaLibros</title>
     <link rel="stylesheet" href="styles/styles.css"
 </head>
 <body>
-    <header>
-    <h1>¡Haz tu reseña!</h1>
-    <img src="images\imagen header.jpg" style="height:300px;">
-    <nav>
-        <ul id="nav-list">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="reseñas.html">Reseñas</a></li>
-            <li>Regístrate</li>
-        </ul>
-    </nav>
-</header>
-<section>
-    <body>
-        <h3 class="title">Cuéntanos que estás leyendo</h3>
-        <p>Explorá nuestras reseñas</p>
-    </body>
+    <header class="header"> 
+        <h1>CuentaLibros</h1>
+        <div class="navbar">   
+            <a href="index.html">Inicio</a>
+            <a href="reseñas.html">Reseñas</a>  
+         </div>     
+    </header>
+<section class="hero">
+    <img class="heroimage" src="images/heroheader.jpg">
 </section>
-<section>
-    <h2 class="title">¿Quieres ser parte de CuentaLibros?</h2>
-    <p>Regístrate para seguir tus reseñas y autores favoritos</p>
-    <form>
+<section class="onetext">
+    <h2>Cuéntanos que estás leyendo</h2>
+    <h3>¡Haz tu propia reseña!</h3>
+    <p>Mientras tambien puedes explorar otras reseñas de tus CuentaLibros favoritas</p>
+</section>
+<section class="secondtext">
+    <h2>¿Quieres ser parte de CuentaLibros?</h2>
+    <div class="column">
+        <h3>Regístrate para seguir tus reseñas y autores favoritos</h3>
+        <form>
         <label>Nombre:</label>
         <input type="text">
         <br>
@@ -38,9 +37,10 @@
         <br>
         <button>Enviar</button>
     </form>
-
+    </div>
 </section>
-<footer>
+<footer class="footer">
     <p>Derechos Reservados de CuentaLibros</p>
 </footer>
+<body>
 <html>
