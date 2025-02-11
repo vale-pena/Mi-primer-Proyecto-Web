@@ -1,33 +1,101 @@
-h1 {color: brown;
+h1 {color: #bfa888;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+h2 {color: #915940;}
+
+h3 {color: #572c0a;}
+
+p {color: #2f2733;}
+
+body { margin: 0;}
+
+.header {
+display: flex;
+flex-direction: column;
+background-color:#915940 ;
+align-items: center;
 }
 
-h2 {color: green;
+.navbar {
+padding: 2rem 0rem;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+border-width: 5px;
+border-style: solid;
+border-color: #2C3930;
+font-size: larger;
+width: 100%;
 }
 
-h3 {color: purple;
+.navbar > a {
+    color: #cf853a;
+}
+.hero {
+width: 100%;
+}
+.heroimage {
+    width: 100%;
+    opacity: 90%;
+    margin: 0%
+;
 }
 
-p {color: black;
-}
-body {
-    margin: 0;
-}
-#nav-list {
-    color: darkblue;
-    font-style: italic;
-    background-color: antiquewhite;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-width: 1px;
-    border-style: groove;
-    border-color:black;
+.onetext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#bfa888;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #2C3930;
 }
 
+.secondtext {
+display: flex;
+flex-direction: column;
+align-items:center;
+background-color: #cf853a ;
+border-width: 5px;
+border-style: solid;
+border-color: #2C3930;
+}
 
-.title {
-font-family: 'Times New Roman', Times, serif;
+.column {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.footer {
+    background-color:#915940 ;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.caja-padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color: lightgoldenrodyellow;
+    padding: 1rem;
+    height: 10rem;
+
+}
+
+.caja {
+    background-color: green;
+    /* equivalente a 1 rem para todos (top bottom left right) */
+    padding: 1rem; 
+    border-width: 20px;
+    border-style: solid;
+    border-color: darkred;
+    width: 3rem;
+    /* view width = ancho de mi vista */
+    height: 3rem; 
+    /* view height = largo de mi vista*/
+    text-align: center;
 }
