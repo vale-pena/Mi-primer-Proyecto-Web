@@ -88,14 +88,11 @@ border-color: #2C3930;
 
 .caja {
     background-color: green;
-    /* equivalente a 1 rem para todos (top bottom left right) */
     padding: 1rem; 
     border-width: 20px;
     border-style: solid;
     border-color: darkred;
     width: 3rem;
-    /* view width = ancho de mi vista */
     height: 3rem; 
-    /* view height = largo de mi vista*/
     text-align: center;
 }
