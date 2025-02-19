@@ -7,7 +7,7 @@ window.onload = function () {
     console.log("Edad:", age)
     console.log("Es estudiante?", isStudent)
     
-    let message = "El/La estudiante" + name + " tiene " + age + " años"
+    let message = "El/La estudiante" + " quiere" + " escribir una reseña"
 
     if(age > 25) {
         console.log (name + " esta muy roco");
@@ -33,9 +33,13 @@ window.onload = function () {
 
 const themeButton = document.getElementById ("theme-toggle");
 themeButton.addEventListener ("click", cambieTema)
-
-
 function cambieTema () {
-    const cajaPadre = document.getElementById("caja-padre");
-    cajaPadre.style.backgroundColor = "black";
-}
+  const cajaPadre = document.getElementById("caja-padre");
+    cajaPadre.style.backgroundColor = "black";}
+    
+//let temaClaro = true;
+
+     //if ("click") { cambieTema.backgroundColor = "black" ;
+       // else temaClaro//
+
+   
